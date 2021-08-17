@@ -5,7 +5,7 @@
     "husky": "^7.0.1"
   },
   "scripts": {
-    "tag": "./scripts/deploy-tag.sh"
+    "tix": "./scripts/get-tickets.sh"
   },
   "husky": {
     "hooks": {
