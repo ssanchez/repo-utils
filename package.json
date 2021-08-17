@@ -5,11 +5,7 @@
     "husky": "^7.0.1"
   },
   "scripts": {
+    "prepare": "husky install && cp -a .husky/. .git/hooks/",
     "tix": "./scripts/get-tickets.sh"
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "./scripts/prepare-commit-msg.sh $HUSKY_GIT_PARAMS"
-    }
   }
 }
