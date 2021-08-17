@@ -1,0 +1,15 @@
+{
+  "name": "@ssanchez/repo-utils",
+  "author": "Spencer Sanchez",
+  "devDependencies": {
+    "husky": "^7.0.1"
+  },
+  "scripts": {
+    "tag": "./scripts/deploy-tag.sh"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "./scripts/prepare-commit-msg.sh $HUSKY_GIT_PARAMS"
+    }
+  }
+}
